@@ -163,7 +163,7 @@ the paper's helix region, the ideal random-walk limits C(0)=1/2 and C(k)=1/4, re
 a synthetic kink chain to under 0.5 Å, ubiquitin's wall pattern (none inside the α-helix), the myoglobin C(0) value,
 stability under coordinate noise, chain-break handling (no angle, wall or soliton spans a gap), the baseline fit
 and the command line. A full soliton fit takes about a minute, so it is marked `slow`: run `pytest -m slow`.
-GitHub Actions runs the rest on Python 3.9, 3.11 and 3.12.
+GitHub Actions runs the rest on Python 3.11, 3.12 and 3.13.
 
 Chains with breaks (gaps larger than 4.2 Å between consecutive Cα atoms) are split into unbroken segments that are
 analysed separately; fragments shorter than 4 residues are skipped and listed in `skipped_segments`.
